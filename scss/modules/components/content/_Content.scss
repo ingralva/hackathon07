@@ -1,0 +1,110 @@
+
+.Content {
+    background: white;
+
+    &-Buscar {
+        background: $segundo-Color-Fondo;
+        padding: 15px;
+        border-radius: 10px;
+        margin: 30px 0px;
+
+        input {
+            width: 100%;
+            border: 0;
+            background: rgb(241, 241, 241);
+            
+            outline: 0;
+            font-size: 14px;
+
+        }
+    }
+
+    &-Seccion {
+        background: white;
+        margin-right: 15px;
+        margin-left: 15px;
+        max-width: 100%;
+
+        &-Titulo {
+            color: $tercer-Color;
+        }
+    }
+
+    &-Articulo {
+        display: flex;
+        flex-direction: row;
+        // padding: 10px;
+        
+
+        &-Informacion {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 10px;
+
+            &-Header {
+                margin-top: 0;
+                // font-size: 40px;
+                margin: 0;
+            }
+
+            &-Content {
+
+                &-Titulo {
+                    color: $cuarto-Color;
+                    font-weight: bold;
+                    margin-top: 0;
+                }
+                &-Texto {
+                    line-height : 25px;
+                }
+            }
+
+            &-Footer{
+                display: flex;
+                justify-content: space-between;
+                // font-size: 10px;
+                
+                &-Texto {
+                    width: 75%;
+                    padding: 10px;
+                }
+
+                &-Autor {
+                    font-weight: bold;
+                    font-size: 1em;
+                    color: $cuarto-Color;
+                    margin: 0;
+                }
+
+                &-Fecha {
+                    font-size: 1em;
+                    margin: 0.4em 0;
+                }
+
+                &-Iconos {
+                    width: 25%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 10px;
+                }
+            }
+        }
+
+        &-Imagen {
+            width: 100%;
+        }
+
+        
+    }
+    
+    &-Articulo-Dir {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        padding: 10px 0;
+    }
+
+}

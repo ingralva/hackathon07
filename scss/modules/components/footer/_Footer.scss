@@ -1,0 +1,55 @@
+
+.Footer {
+    background: #316099;
+    border-radius: 0 10em 0 0;
+    padding: 20px 0;
+
+    &-Content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-Titulo {
+        font-size: 36px;
+        padding-right: 150px; 
+        color: $primer-Color; 
+    }
+
+    &-SubTitulo {
+        font-size: 24px;
+        padding-right: 150px; 
+        color: $primer-Color; 
+    }
+
+    &-Boton {
+        display: inline-block;        
+        background: #5A98D0;
+        text-align: center;
+        padding: .5rem 1rem;
+        font-size: 1.25rem;
+        width: 200px;
+        border: 1px solid #5A98D0;
+        border-radius: .3rem;
+        text-decoration: none;
+        font-size: 1.1em;
+        color: $primer-Color;
+    }
+
+    &-ListItem {
+        padding: 0;
+        margin: 0;
+        
+    }
+
+    &-Item {
+        padding: .5em;
+        list-style-type: none;
+        color: #d1d8e0;
+    }
+
+    &-Link {
+        text-decoration: none;
+        font-size: 1.1em;
+        color: #d1d8e0;
+    }
+}

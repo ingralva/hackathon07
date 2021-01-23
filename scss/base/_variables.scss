@@ -1,0 +1,38 @@
+
+$primer-Color: #fff;
+$segundo-Color: #000;
+$tercer-Color: #6FB0ED;
+$cuarto-Color:  #28476E;
+$quinto-Color:#5283B8;
+
+$primer-Color-Fondo: #6FB0ED;
+$segundo-Color-Fondo: #F4F4F4;
+$tercer-Color-Fondo: #316099;
+
+$tipo-Letra: Calibri, 'Trebuchet MS', sans-serif;
+
+.body {
+    font-family: $tipo-Letra;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.texto-derecha {
+    
+    text-align: right;
+}
